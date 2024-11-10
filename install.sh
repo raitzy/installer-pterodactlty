@@ -3,11 +3,11 @@
 # [+] - INSTALLER PTERODACTYL                         [+]
 # [+]                                                 [+]
 # [+]  TQTO :                                         [+]
-# [+] • WannOffc ( MySelf)                            [+]
+# [+] • RaitzyDev ( DEVELOPER )                            [+]
 # [+] • Creator Bot WhatsApp & Telegram               [+]
 # [+] • Para Pengguna Bot Tele & Wa                   [+]
 # [+]                                                 [+]
-# [+] © CreateByWannFyy                               [+]
+# [+] © CreateByRaitzyDev                               [+]
 # [+] =============================================== [+]
 
 #!/bin/bash
@@ -25,18 +25,18 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]             AUTO INSTALLER PTERODACTYL          [+]${NC}"
-  echo -e "${BLUE}[+]                  © BY WANNFYY                   [+]${NC}"
+  echo -e "${BLUE}[+]                  © BY RAITZYDEV                 [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] ===============================================  [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian pterodactyle,"
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
-  echo -e "JANGAN LUPA SUBSCRIBE @WANNOFFC"
+  echo -e "JANGAN LUPA SUBSCRIBE @RAITZYDEV"
   echo -e ""
   echo -e "TQ TO :"
   echo -e "ALL CREATOR WHATSAPP"
-  echo -e "WANNOFFICIAL ( MY SELF )"
+  echo -e "RaitzyDev ( DEVELOPER )"
   sleep 4
   clear
 }
@@ -75,10 +75,10 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "iniwannbroku" ]; then
+  if [ "$USER_TOKEN" = "raitzykece" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN} Silahkan Tanyakan Kepada WannOFFICIAL Jika Token Salah.${NC}"
+    echo -e "${GREEN} Silahkan Tanyakan Kepada RaitzyDev Jika Token Salah.${NC}"
     exit 1
   fi
   clear
@@ -87,7 +87,7 @@ check_token() {
 create_node() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]                    CRRATE NODE                 [+]${NC}"
+  echo -e "${BLUE}[+]                    CREATE NODE                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   #!/bin/bash
